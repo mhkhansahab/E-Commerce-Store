@@ -1,0 +1,16 @@
+.mainNav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+.navElement{
+    cursor: pointer;
+}
+.mylink{
+    color: white;
+    text-decoration: none;
+}

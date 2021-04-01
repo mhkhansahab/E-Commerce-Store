@@ -1,0 +1,33 @@
+.mainCard{
+    width: 250px;
+    height: 300px;
+    border: 0.1px solid grey;
+    margin: 10px;
+}
+.cardimg{
+    height: 60%;
+    width: 100%;
+}
+.cardbtn{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 60%;
+    height: 30px;
+    border-radius: 4px;
+    color: white;
+    background-color: grey;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.cardTitle{
+    color: grey;
+    font-size: 30px;
+}
+.btnContainer{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
