@@ -3,11 +3,26 @@
   margin: 0;
 }
 .pageTitle{
+  text-transform: uppercase;
   color: grey;
   font-size: 50px;
   font-size: 50px;
   font-weight: bold;
   width: 100%;
   text-align: center;
-  margin: 20px;
+  margin: 20px 0;
+}
+
+.addbtn{
+  cursor: pointer;
+  position: fixed;
+  bottom: 8px;
+  right: 10px;
+  text-align: center;
+  padding: 20px;
+  width: 20px;
+  color: white;
+  background-color: grey;
+  border-radius: 50%;
+  font-weight: bolder;
 }

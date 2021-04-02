@@ -31,3 +31,21 @@
     align-items: center;
     flex-direction: column;
 }
+
+@media (max-width: 568px) {
+    .mainCard{
+        width: 150px;
+        height: 200px;
+        margin: 10px 2px;
+    }
+    .btnContainer{
+        margin-top: 2px;
+    }
+    .cardTitle{
+        font-size: 15px;
+    }
+    .cardbtn{
+        margin-top: 2px;
+    }
+    
+}

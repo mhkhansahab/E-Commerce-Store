@@ -37,16 +37,48 @@
 }
 
 .totalCard{
-    position: fixed;
+    position: absolute;
     width: 100%;
     background-color: grey;
-    height: 100px;
+    padding: 10px 0;
     bottom: 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .text{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.checkout{
+    background-color: white;
+    color: grey;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+@media (max-width: 628px) {
+    .cartTile{
+        width: 95%;
+    }
+    .cartName, .cartPrice, .inc, .dec, .quantity{
+        font-size: 15px;
+    }
+    .cartPrice{
+        right: 20px;
+    }
+    .countContainer{
+       left: 55%;
+    }
+    .cartName{
+        margin-left: 10px;
+    }
+    .cartImg{
+        margin-left: 10px;
+    }
 }

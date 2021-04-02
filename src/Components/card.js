@@ -5,10 +5,28 @@ class Card extends Component{
     addtoCart = ()=>{
         let orders = JSON.parse(window.localStorage.getItem("order"));
         let order = this.props;
-        order = {...order, quantity:1};
-        orders.push(order);
-        console.log(orders);
-        window.localStorage.setItem("order",JSON.stringify(orders));
+
+        if(orders.length !== 0){
+            let flag = false;
+            orders.forEach((element,index) => {
+                if(element.name === order.name){
+                    orders[index] = {...orders[index], quantity: orders[index].quantity + 1};
+                    window.localStorage.setItem("order",JSON.stringify(orders));
+                    flag = true;
+            }
+            });
+
+            if(flag === false){
+                order = {...order, quantity:1};
+                orders.push(order);
+                window.localStorage.setItem("order",JSON.stringify(orders));
+            }
+        }else{
+            order = {...order, quantity:1};
+            orders.push(order);
+            window.localStorage.setItem("order",JSON.stringify(orders));
+        }
+        alert("Product Added to Cart");
     }
     render(){
         return(
