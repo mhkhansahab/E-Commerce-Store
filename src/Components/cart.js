@@ -19,6 +19,11 @@ class Cart extends Component{
            })
          }
         </div>
+        <div className="totalCard">
+          <span className="text">Total Quantity: 200</span>
+          <span className="text">Total Price: 500</span>
+          <button className="checkout">Proceed to Checkout</button>
+        </div>
       </div>
     );
   }

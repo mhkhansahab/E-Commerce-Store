@@ -35,3 +35,18 @@
     cursor: pointer;
     margin: 0 5px;
 }
+
+.totalCard{
+    position: fixed;
+    width: 100%;
+    background-color: grey;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text{
+    color: white;
+    font-size: 20px;
+}
