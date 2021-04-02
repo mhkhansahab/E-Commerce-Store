@@ -8,11 +8,14 @@
     margin: 10px auto;
     width: 80%;
     border: 1px solid grey;
+    border: none;
+    -webkit-box-shadow: 3px 6px 31px -11px rgba(0,0,0,0.66);
+    -moz-box-shadow: 3px 6px 31px -11px rgba(0,0,0,0.66);
+    box-shadow: 3px 6px 31px -11px rgba(0,0,0,0.66);
 }
 .cartImg{
     height: 60px;
     width: 60px;
-    margin-left: 20px;
 }
 .cartName, .cartPrice, .inc, .dec, .quantity{
     font-size: 25px;
@@ -76,9 +79,6 @@
        left: 55%;
     }
     .cartName{
-        margin-left: 10px;
-    }
-    .cartImg{
         margin-left: 10px;
     }
 }

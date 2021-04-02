@@ -1,8 +1,11 @@
 .mainCard{
     width: 250px;
     height: 300px;
-    border: 0.1px solid grey;
+    border: none;
     margin: 10px;
+    -webkit-box-shadow: 3px 6px 31px -8px rgba(211,211,211,1);
+-moz-box-shadow: 3px 6px 31px -8px rgba(211,211,211,1);
+box-shadow: 3px 6px 31px -8px rgba(211,211,211,1);
 }
 .cardimg{
     height: 60%;
