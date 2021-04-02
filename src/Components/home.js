@@ -1,13 +1,13 @@
 import {Component} from "react";
 import './../Styles/home.css';
 
-class App extends Component{
+class Home extends Component{
   render(){
     return(
       <div>
-       Home Page
+       
       </div>
     );
   }
 }
-export default App;
+export default Home;

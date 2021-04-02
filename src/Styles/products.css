@@ -1,16 +1,9 @@
 .productMain{
   position: relative;
 }
-.productTitle{
-    color: grey;
-    font-size: 50px;
-    font-size: 50px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    margin: 20px;
-  }
+
   .addbtn{
+    cursor: pointer;
     position: fixed;
     bottom: 10px;
     right: 10px;

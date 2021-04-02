@@ -13,7 +13,7 @@ class CardContainer extends Component{
         return(
             <div className="mainContainer">
                 {data.map((element,i)=>{
-                    return <Card key = {i} name={element.name} url={element.url}></Card>
+                    return <Card key = {i} name={element.name} price={element.price} url={element.url}></Card>
                 })
                 }
             </div>

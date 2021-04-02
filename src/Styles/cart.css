@@ -1,0 +1,37 @@
+.cartContainer{
+    width: 100%;
+}
+.cartTile{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px auto;
+    width: 80%;
+    border: 1px solid grey;
+}
+.cartImg{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+}
+.cartName, .cartPrice, .inc, .dec, .quantity{
+    font-size: 25px;
+    color: grey;
+}
+.cartPrice{
+    position: absolute;
+    right: 40px;
+}
+.cartName{
+    margin-left: 20px;
+}
+
+.countContainer{
+    position: absolute;
+    left: 50%;
+}
+.inc, .dec, .quantity{
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 5px;
+}
