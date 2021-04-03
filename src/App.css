@@ -13,16 +13,23 @@
   margin: 20px 0;
 }
 
-.addbtn{
+.myaddbtn{
   cursor: pointer;
   position: fixed;
   bottom: 8px;
-  right: 10px;
+  right: 12px;
   text-align: center;
-  padding: 20px;
-  width: 20px;
   color: white;
   background-color: grey;
   border-radius: 50%;
   font-weight: bolder;
+  padding: 20px;
+  z-index: 12;
+}
+
+footer{
+  margin-top: 100px;
+  height: 100px;
+  width: 100%;
+  background-color: grey;
 }
